@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace TF_IDF
+namespace CS4642_TF_IDF_Questions
 {
     public class Vocabulary
     {

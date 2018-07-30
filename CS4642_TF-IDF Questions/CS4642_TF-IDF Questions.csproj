@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TF_IDFClass.cs" />
     <Compile Include="Vocabulary.cs" />
   </ItemGroup>
   <ItemGroup>
