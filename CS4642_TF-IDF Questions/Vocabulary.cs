@@ -27,7 +27,7 @@ namespace CS4642_TF_IDF_Questions
 
             foreach (string word in words)
             {
-                if (WordsDic.ContainsKey(word))
+                if (WordsDic.ContainsKey(word.ToLower()))
                 {
                     if (dic.ContainsKey(word))
                     {
