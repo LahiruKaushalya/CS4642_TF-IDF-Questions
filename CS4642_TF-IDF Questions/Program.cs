@@ -48,11 +48,11 @@ namespace TF_IDF
 
             //Print Output
             var index = 32;
-            Console.WriteLine("index");
+            Console.WriteLine(index);
             Console.WriteLine("1");
-            Console.WriteLine("document1:{0}", VocabularySize(vocabulary1));
-            Console.WriteLine("document2:{0}", VocabularySize(vocabulary2));
-            Console.WriteLine("document3:{0}\n", VocabularySize(vocabulary3));
+            Console.WriteLine("document1:{0}", vocabulary1.Count);
+            Console.WriteLine("document2:{0}", vocabulary2.Count);
+            Console.WriteLine("document3:{0}\n", vocabulary3.Count);
 
             Console.WriteLine("2");
             Console.WriteLine("document1:{0},{1}", TF_Dic1.ElementAt(index).Key, TF_Dic1.ElementAt(index).Value);

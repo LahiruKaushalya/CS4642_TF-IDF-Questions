@@ -27,16 +27,17 @@ namespace CS4642_TF_IDF_Questions
 
             foreach (string word in words)
             {
-                if (WordsDic.ContainsKey(word.ToLower()))
+                var _word = word.ToLower();
+                if (WordsDic.ContainsKey(_word))
                 {
-                    if (dic.ContainsKey(word))
+                    if (dic.ContainsKey(_word))
                     {
-                        var count = dic[word];
-                        dic[word] = count + 1;
+                        var count = dic[_word];
+                        dic[_word] = count + 1;
                     }
                     else
                     {
-                        dic[word] = 1;
+                        dic[_word] = 1;
                     }
                 }
             }
